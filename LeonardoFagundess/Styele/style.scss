@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+$verde: #2e948a;
+$rosa: #ff4081;
+
+body {
+  margin: 0;
+
+  .flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .flex-wr {
+    flex-wrap: wrap;
+  }
+
+  .flex-ch {
+    justify-content: center;
+  }
+
+  .flex-ri {
+    justify-content: flex-end;
+  }
+
+  .flex-bv {
+    align-items: flex-end;
+  }
+
+  .flex-le {
+    justify-content: flex-start;
+  }
+
+  .flex-sp {
+    justify-content: space-between;
+  }
+
+  .flex-sa {
+    justify-content: last-baseline;
+    padding-top: 50px;
+  }
+
+  .flex-cv {
+    align-items: center;
+  }
+
+  .flex-spa {
+    justify-content: space-around;
+  }
+
+  .container {
+    max-width: 940px;
+    margin: auto;
+  }
+
+  nav {
+    background: $verde;
+    padding: 20px 82px;
+    ul {
+      li {
+        list-style: none;
+        margin-right: 40px;
+        margin-top: 15px;
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+
+  .educacaoFinanceira {
+    padding: 100px;
+    .text {
+      width: 50%;
+      h1 {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 69px;
+        color: $rosa;
+      }
+      p {
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 31px;
+      }
+      button {
+        width: 268px;
+        border: 2px solid #ff4081;
+        color: $rosa;
+        border-radius: 62px;
+        height: 51px;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 31px;
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
+
+
+
+  .mostracursos{
+    background: #F7F7F7;
+    padding: 100px;
+    .box {
+      text-align: center;
+      img {
+        width: 288px;
+        height: 270px;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+  
+        strong {
+          color: $rosa;
+          font-size: 25px;
+          text-align: center;
+          font-weight: 700;
+          display: block;
+        }
+      }
+      button {
+        width: 233px;
+        height: 51px;
+        color: #fff;
+        background: #ff4081;
+        border-radius: 62px;
+        border: none;
+      }
+    }
+  }
+
+  .sobreNos {
+    h3 {
+      font-size: 37px;
+      color: #009688;
+    }
+
+    .boxs-experiencias {
+      .icones {
+        width: 50%;
+        margin-bottom: 40px;
+
+        p {
+          margin-left: 25px;
+        }
+      }
+    }
+  }
+
+  .mais-conteudo {
+    background: #e5e5e5;
+    padding: 91px 128px;
+    h3 {
+      color: #009688;
+      font-size: 37px;
+      font-weight: 700;
+      line-height: 42.51px;
+    }
+
+    .boxs {
+      .box1 {
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 20.68px;
+          strong {
+            font-size: 27px;
+            font-weight: 700;
+            line-height: 31px;
+            color: #009688;
+          }
+        }
+      }
+    }
+
+    button {
+      width: 289px;
+      height: 51px;
+      font-size: 25px;
+      line-height: 28.73px;
+      border: 2px solid #ff4081;
+      border-radius: 62px;
+      color: #ff4081;
+      margin-top: 45px;
+    }
+  }
+
+  .informacoes-cursos {
+    h1 {
+      font-size: 60px;
+      font-weight: 700;
+      color: $rosa;
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #555555;
+    }
+    .cursos {
+      margin-top: 75px;
+      .descricao-cursos {
+        .conteudo {
+          margin-left: 64px;
+          h1 {
+            font-size: 35px;
+            font-weight: 700;
+            color: $rosa;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 300;
+            color: #000000;
+          }
+          button {
+            width: 233px;
+            height: 51px;
+            background-color: #419488;
+            border-radius: 62px;
+          }
+        }
+
+        &.ultimo {
+          margin-bottom: 70px;
+        }
+      }
+      hr {
+        width: 940px;
+        height: 2px;
+        background: #c4c4c4;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+  footer {
+    background: $verde;
+    padding: 50px 137px;
+    img {
+      width: 33.33%;
+    }
+    ul {
+      width: 33.33%;
+      text-align: center;
+      li {
+        list-style: none;
+        margin-right: 40px;
+        margin-top: 15px;
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 23px;
+        }
+      }
+    }
+    .buttons {
+      width: 33.33%;
+      justify-content: center;
+      button {
+        width: 289px;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        border-radius: 62px;
+        height: 51px;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 23px;
+        margin-bottom: 20px;
+        background: $verde;
+      }
+    }
+  }
+}
+
+body {
+  .contato {
+    padding: 70px 150px;
+    .esquerda {
+      width: 50%;
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #ff4081;
+      }
+
+      .form {
+        input {
+          width: 493px;
+          height: 32px;
+        }
+      }
+
+      button {
+        background: #ff4081;
+        border-radius: 50px;
+        width: 108px;
+        height: 32px;
+        margin-top: 15px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        border: none;
+      }
+    }
+    .direita {
+      width: 50%;
+    }
+  }
+}
+
+body {
+  .fase {
+    padding: 50px;
+    .text-curso {
+      .esquerdo {
+        width: 50%;
+        h1 {
+          font-size: 55px;
+          font-weight: 700;
+          color: $rosa;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 300;
+          color: #000000;
+        }
+      }
+
+      img {
+        width: 50%;
+        margin-left: 50px;
+      }
+    }
+  }
+  .maloqueiro {
+    padding: 75px;
+    background: #f7f7f7;
+    hr {
+      width: 940px;
+      height: 2px;
+      background: #c4c4c4;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .aulas {
+      .video {
+        width: 50%;
+        height: 261px;
+        border: 3px solid #8e8e8e;
+        .circulo {
+          width: 90px;
+          height: 90px;
+          border: 1px solid #000000;
+          border-radius: 100%;
+          position: relative;
+          top: 37%;
+          left: 185px;
+
+          img {
+            top: 20px;
+            position: relative;
+            left: 30px;
+          }
+        }
+      }
+      .conteudo {
+        width: 50%;
+        margin-left: 60px;
+        h1 {
+          font-size: 35px;
+          font-weight: 700;
+          color: $rosa;
+          margin: 0;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .secao-contato {
+    padding: 100px 50px;
+    .esquerdo {
+      width: 50%;
+
+      h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0;
+        color: $rosa;
+        margin-bottom: 25px;
+      }
+
+      #name {
+       width: 100%;
+        height: 32px;
+        margin-bottom: 20px;
+        border-radius: 7px;
+        border: 1px solid #686868;
+        padding: 5px;
+      }
+      #email {
+        width: 100%;
+        height: 32px;
+        margin-bottom: 20px;
+        border-radius: 7px;
+        border: 1px solid #686868;
+        padding: 5px;
+      }
+      #menssage {
+        width: 100%;
+        height: 193px;
+        border-radius: 7px;
+        border: 1px solid #686868;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+      button{
+        width: 108px;
+        height: 32px;
+        background: #FF4081;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        border: none;
+      }
+    }
+    img {
+      width: 50%;
+      margin-left: 50px;
+    }
+  }
+
+  .secao-post{
+    text-align: center;
+    h1{
+      font-size: 50px;
+      font-weight: 800;
+      color: $rosa;
+    }
+    h2{
+      font-size: 18px;
+      font-weight: 300;
+      color: #9D9D9D;
+    }
+    h3{
+      font-size: 26px;
+      font-weight: 500;
+      color: #419488;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 300;
+      text-align: left;
+    }
+  }
+
+  .cursos-post{
+    background: #F7F7F7;
+    text-align: center;
+    padding: 40px 0px;
+
+    h1{
+      font-size: 50px;
+      font-weight: 500;
+      color: $rosa;
+    }
+  }
+
+  .secao-blog{
+    padding: 100px;
+    .text-curso{
+      .esquerdo{
+        h1{
+          font-size: 47px;
+          font-weight: 700;
+          color: #009688;
+        }
+        p{
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+
+  .ultima-pagina{
+    padding: 100px;
+    background: #E5E5E5;
+    .twobox{
+     
+      .esquerda{
+        text-align: center;
+      
+        h1{
+          font-size: 30px;
+          font-weight: 500;
+          color: $rosa;
+        }
+        p{
+          font-size: 17px;
+        }
+      }
+    }
+  }
+
+}

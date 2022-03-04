@@ -1,0 +1,558 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  margin: 0;
+}
+
+body .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .flex-wr {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .flex-ch {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .flex-ri {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .flex-bv {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .flex-le {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .flex-sp {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .flex-sa {
+  -webkit-box-pack: last-baseline;
+      -ms-flex-pack: last-baseline;
+          justify-content: last-baseline;
+  padding-top: 50px;
+}
+
+body .flex-cv {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .flex-spa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container {
+  max-width: 940px;
+  margin: auto;
+}
+
+body nav {
+  background: #2e948a;
+  padding: 20px 82px;
+}
+
+body nav ul li {
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+body nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+body .educacaoFinanceira {
+  padding: 100px;
+}
+
+body .educacaoFinanceira .text {
+  width: 50%;
+}
+
+body .educacaoFinanceira .text h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 69px;
+  color: #ff4081;
+}
+
+body .educacaoFinanceira .text p {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+body .educacaoFinanceira .text button {
+  width: 268px;
+  border: 2px solid #ff4081;
+  color: #ff4081;
+  border-radius: 62px;
+  height: 51px;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+body .educacaoFinanceira img {
+  width: 50%;
+}
+
+body .mostracursos {
+  background: #F7F7F7;
+  padding: 100px;
+}
+
+body .mostracursos .box {
+  text-align: center;
+}
+
+body .mostracursos .box img {
+  width: 288px;
+  height: 270px;
+  margin-bottom: 25px;
+}
+
+body .mostracursos .box p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+body .mostracursos .box p strong {
+  color: #ff4081;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  display: block;
+}
+
+body .mostracursos .box button {
+  width: 233px;
+  height: 51px;
+  color: #fff;
+  background: #ff4081;
+  border-radius: 62px;
+  border: none;
+}
+
+body .sobreNos h3 {
+  font-size: 37px;
+  color: #009688;
+}
+
+body .sobreNos .boxs-experiencias .icones {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+body .sobreNos .boxs-experiencias .icones p {
+  margin-left: 25px;
+}
+
+body .mais-conteudo {
+  background: #e5e5e5;
+  padding: 91px 128px;
+}
+
+body .mais-conteudo h3 {
+  color: #009688;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 42.51px;
+}
+
+body .mais-conteudo .boxs .box1 p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.68px;
+}
+
+body .mais-conteudo .boxs .box1 p strong {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #009688;
+}
+
+body .mais-conteudo button {
+  width: 289px;
+  height: 51px;
+  font-size: 25px;
+  line-height: 28.73px;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  color: #ff4081;
+  margin-top: 45px;
+}
+
+body .informacoes-cursos h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ff4081;
+  margin-bottom: 0;
+}
+
+body .informacoes-cursos h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #555555;
+}
+
+body .informacoes-cursos .cursos {
+  margin-top: 75px;
+}
+
+body .informacoes-cursos .cursos .descricao-cursos .conteudo {
+  margin-left: 64px;
+}
+
+body .informacoes-cursos .cursos .descricao-cursos .conteudo h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ff4081;
+}
+
+body .informacoes-cursos .cursos .descricao-cursos .conteudo p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000;
+}
+
+body .informacoes-cursos .cursos .descricao-cursos .conteudo button {
+  width: 233px;
+  height: 51px;
+  background-color: #419488;
+  border-radius: 62px;
+}
+
+body .informacoes-cursos .cursos .descricao-cursos.ultimo {
+  margin-bottom: 70px;
+}
+
+body .informacoes-cursos .cursos hr {
+  width: 940px;
+  height: 2px;
+  background: #c4c4c4;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+body footer {
+  background: #2e948a;
+  padding: 50px 137px;
+}
+
+body footer img {
+  width: 33.33%;
+}
+
+body footer ul {
+  width: 33.33%;
+  text-align: center;
+}
+
+body footer ul li {
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+body footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+body footer .buttons {
+  width: 33.33%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .buttons button {
+  width: 289px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 62px;
+  height: 51px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 23px;
+  margin-bottom: 20px;
+  background: #2e948a;
+}
+
+body .contato {
+  padding: 70px 150px;
+}
+
+body .contato .esquerda {
+  width: 50%;
+}
+
+body .contato .esquerda h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff4081;
+}
+
+body .contato .esquerda .form input {
+  width: 493px;
+  height: 32px;
+}
+
+body .contato .esquerda button {
+  background: #ff4081;
+  border-radius: 50px;
+  width: 108px;
+  height: 32px;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+}
+
+body .contato .direita {
+  width: 50%;
+}
+
+body .fase {
+  padding: 50px;
+}
+
+body .fase .text-curso .esquerdo {
+  width: 50%;
+}
+
+body .fase .text-curso .esquerdo h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #ff4081;
+}
+
+body .fase .text-curso .esquerdo p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+
+body .fase .text-curso img {
+  width: 50%;
+  margin-left: 50px;
+}
+
+body .maloqueiro {
+  padding: 75px;
+  background: #f7f7f7;
+}
+
+body .maloqueiro hr {
+  width: 940px;
+  height: 2px;
+  background: #c4c4c4;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+body .maloqueiro .aulas .video {
+  width: 50%;
+  height: 261px;
+  border: 3px solid #8e8e8e;
+}
+
+body .maloqueiro .aulas .video .circulo {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #000000;
+  border-radius: 100%;
+  position: relative;
+  top: 37%;
+  left: 185px;
+}
+
+body .maloqueiro .aulas .video .circulo img {
+  top: 20px;
+  position: relative;
+  left: 30px;
+}
+
+body .maloqueiro .aulas .conteudo {
+  width: 50%;
+  margin-left: 60px;
+}
+
+body .maloqueiro .aulas .conteudo h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ff4081;
+  margin: 0;
+}
+
+body .maloqueiro .aulas .conteudo p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+body .secao-contato {
+  padding: 100px 50px;
+}
+
+body .secao-contato .esquerdo {
+  width: 50%;
+}
+
+body .secao-contato .esquerdo h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  color: #ff4081;
+  margin-bottom: 25px;
+}
+
+body .secao-contato .esquerdo #name {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #686868;
+  padding: 5px;
+}
+
+body .secao-contato .esquerdo #email {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #686868;
+  padding: 5px;
+}
+
+body .secao-contato .esquerdo #menssage {
+  width: 100%;
+  height: 193px;
+  border-radius: 7px;
+  border: 1px solid #686868;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+body .secao-contato .esquerdo button {
+  width: 108px;
+  height: 32px;
+  background: #FF4081;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+}
+
+body .secao-contato img {
+  width: 50%;
+  margin-left: 50px;
+}
+
+body .secao-post {
+  text-align: center;
+}
+
+body .secao-post h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ff4081;
+}
+
+body .secao-post h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #9D9D9D;
+}
+
+body .secao-post h3 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #419488;
+}
+
+body .secao-post p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+
+body .cursos-post {
+  background: #F7F7F7;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+body .cursos-post h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ff4081;
+}
+
+body .secao-blog {
+  padding: 100px;
+}
+
+body .secao-blog .text-curso .esquerdo h1 {
+  font-size: 47px;
+  font-weight: 700;
+  color: #009688;
+}
+
+body .secao-blog .text-curso .esquerdo p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+body .ultima-pagina {
+  padding: 100px;
+  background: #E5E5E5;
+}
+
+body .ultima-pagina .twobox .esquerda {
+  text-align: center;
+}
+
+body .ultima-pagina .twobox .esquerda h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ff4081;
+}
+
+body .ultima-pagina .twobox .esquerda p {
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */
